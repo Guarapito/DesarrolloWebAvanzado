@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATSSAS S.A.S. - Seguridad y Salud en el Trabajo</title>
+    <meta name="description" content="ATSSAS S.A.S. ofrece soluciones integrales en Seguridad y Salud en el Trabajo, con 10 años de experiencia y presencia nacional.">
+    <link rel="stylesheet" href="cssparcial.css">
+</head>
+<script>
+function startSlider(sliderClass, interval = 4000) {
+  const slides = document.querySelectorAll(sliderClass);
+  let currentIndex = 0;
+
+  setInterval(() => {
+    slides[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % slides.length;
+    slides[currentIndex].classList.add("active");
+  }, interval);
+}
+
+// Iniciar sliders
+document.addEventListener("DOMContentLoaded", () => {
+  startSlider(".hero-slider .slide", 5000);
+  startSlider(".campaign-slider .campaign-slide", 4000);
+});
+</script>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                <img src="logo.png" alt="ATSSAS Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Quiénes Somos</a></li>
+                    <li><a href="#services">Nuestros Servicios</a></li>
+                    <li><a href="#methodology">Metodología</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Abrir menú móvil">
+                    <i class="ri-menu-line"></i> 
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Quiénes Somos</a></li>
+            <li><a href="#services">Nuestros Servicios</a></li>
+            <li><a href="#methodology">Metodología</a></li>
+            <li><a href="#clients">Nuestros Clientes</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+  <div class="hero-slider">
+    <div class="slide active">
+      <img src="hero1.jpg" alt="Seguridad en el trabajo">
+    </div>
+    <div class="slide">
+      <img src="hero2.jpg" alt="Capacitaciones">
+    </div>
+    <div class="slide">
+      <img src="hero3.jpg" alt="Equipo de trabajo">
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <h1>ATSSAS S.A.S.: Tu Aliado Estratégico en Seguridad y Salud en el Trabajo</h1>
+    <p>Protegemos lo más importante: las personas.</p>
+    <div class="hero-ctas">
+      <a href="#about" class="btn btn-primary">Conócenos</a>
+      <a href="#services" class="btn btn-secondary">Nuestros Servicios</a>
+    </div>
+  </div>
+</section>
+
+
+    
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2>Quiénes Somos</h2>
+            <div class="about-intro">
+                <p>ATSSAS S.A.S. somos una empresa con <strong>10 años de experiencia</strong>, siendo un aliado estratégico en Seguridad y Salud en el Trabajo para nuestros clientes, con presencia a nivel nacional.</p>
+                <p>Desde el año 2013, hemos tenido la oportunidad de apoyar con diversas líneas de nuestro portafolio a un sin número de empresas.</p>
+            </div>
+
+            <div class="mission-vision-values">
+                <div class="mvv-item">
+                    <h3>Nuestra Misión</h3>
+                    <p>ATSSAS S.A.S. es una organización innovadora, con la capacidad de identificar, estructurar, construir y consolidar proyectos de gestión integral del riesgo sobre la seguridad y la salud en el trabajo. Trabajamos bajo un enfoque transdisciplinario, exaltando el talento humano y la responsabilidad social empresarial, con un alto nivel de calidad y pertinencia, regidos por normas nacionales e internacionales, en beneficio de nuestros clientes internos y partes interesadas.</p>
+                </div>
+                <div class="mvv-item">
+                    <h3>Nuestra Visión</h3>
+                    <p>En el 2025 ATSSAS S.A.S. será reconocida como una empresa líder en la entrega de servicios y desarrollo de proyectos a la medida de las necesidades de nuestros clientes, con aliados estratégicos que optimizan la plataforma para el crecimiento de la organización, sustentada con personal altamente calificado, que desarrolla sus actividades de forma segura y responsable con el medio ambiente.</p>
+                </div>
+                <div class="mvv-item">
+                    <h3>Nuestros Valores</h3>
+                    <ul>
+                        <li>Orientación al Cliente</li>
+                        <li>Responsabilidad</li>
+                        <li>Oportunidad</li>
+                        <li>Integridad</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="certifications">
+  <h3>Nuestras Certificaciones</h3>
+  <p>Contamos con un Sistema Integrado de Gestión y certificaciones que nos permiten brindar servicio de calidad a nuestros clientes y aliados estratégicos.</p>
+  <p>Igualmente contamos con Licencia de Salud en el Trabajo (Res. renovada 10838 de 06/07/2023).</p>
+  
+  <div class="certification-logos">
+    <img src="Iso14001.png" alt="Certificación 1">
+    <img src="Iso45001.jpg" alt="Certificación 2">
+    <img src="Iso9001.png" alt="Certificación 3">
+  </div>
+</div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section section-padding bg-light">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <p class="section-description">Dando cumplimiento a nuestra misión, visión y valores, ofrecemos las siguientes líneas de negocio:</p>
+
+            <div class="service-category">
+            
+                <div class="service-list">
+                    <h4>Auditoría Interna</h4>
+                    <ul>
+                        <li>Sistema de Gestión en Seguridad y Salud SGSS (ISO 45001:2018)</li>
+                        <li>Seguridad y Salud en el trabajo con energía eléctrica (Res. 5018:2019)</li>
+                        <li>Registro Uniforme de Evaluación del Sistema de Gestión en Seguridad, Salud Ocupacional y Ambiente para Contratistas – RUC</li>
+                        <li>Sistemas de Gestión de la Calidad (ISO 9001:2015)</li>
+                        <li>Sistemas Integrados de Gestión HSEQ.</li>
+                        <li>Sistema de Gestión en Ambiental SGA (ISO 14001:2015)</li>
+                        <li>Gestión del riesgo (ISO 31000:2018)</li>
+                        <li>Sistemas de Gestión de la Seguridad Vial (ISO 39001:2012)</li>
+                        <li>Auditorías de Sistemas de Gestión (ISO 19011: 2018)</li>
+                        <li>Gestión del Riesgo de Desastres (Decreto 2157 de 2017)</li>
+                        <li>Responsabilidad social empresarial (ISO 26001:2010)</li>
+                        <li>Sistemas de Gestión en Control y Seguridad BASC (SGCS BASC V5 - 2017)</li>
+                    </ul>
+                        <h4>Asesoría y consultoría</h4>
+                    <ul>
+                        <li>Comité de Convivencia.</li>
+                        <li>Comité Paritario de Seguridad y Salud en el Trabajo.</li>
+                        <li>Identificación de los peligros y valoración de los riesgos.</li>
+                        <li>Investigación de accidentes e incidentes basados en la gestión integral y la mejora continua.</li>
+                        <li>Mediciones de Higiene Industrial y Ambiental.</li>
+                        <li>Sistema de protección contra caídas.</li>
+                        <li>Tareas de alto riesgo.</li>
+                        <li>Promoción de la salud y prevención de enfermedades.</li>
+                        <li>Estilos de vida saludable.</li>
+                        <li>Gestión del riesgo de desastres.</li>
+                        <li>Diagnósticos de condiciones de salud.</li>
+                        <li>Programas psicosociales.</li>
+                        <li>Protocolos y temas de bioseguridad.</li>
+                        <li>Desinfección y sanitización.</li>
+                        <li>Campañas y jornadas saludables.</li>
+                    </ul>
+
+                    <h4>Capacitación y Entrenamiento</h4>
+                    <ul>
+                        <li>Riesgo físico, químico, biomecánico, de seguridad, locativo, eléctrico, público, psicosocial, biológico.</li>
+                        <li>Medicina Preventiva y del Trabajo, Higiene Industrial.</li>
+                    </ul>
+                     <h4>Desarrollo y Certificación de Habilidades</h4>
+                     <ul>   
+                        <li>Primeros auxilios, Brigadas de respuesta a emergencias, Técnicas de evacuación y rescate, Brigadas contra incendios.</li>
+                        <li>Manejo y control de sustancias químicas peligrosas.</li>
+                        <li>Trabajo seguro en alturas, Trabajo seguro en espacios confinados.</li>
+                        <li>Atención a víctimas en siniestros viales.</li>
+                        <li>Certificación internacional de Brigadista integral.</li>
+                        <li>Seguridad Industrial, Espacios confinados, Seguridad vial, Sistemas de protección contra caídas.</li>
+                        <li>Estilos de vida saludable, Gestión de la calidad y el medio ambiente.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="campaigns" class="campaigns-section">
+  <div class="container">
+    <div class="campaign-content">
+      <h2>Campañas</h2>
+      <p>
+        Impulsamos la prevención y el bienestar con campañas innovadoras que fortalecen 
+        las competencias y la mejora continua de nuestros clientes.
+      </p>
+    </div>
+
+    <div class="campaign-slider">
+      <div class="campaign-slide active">
+        <img src="camp1.jpg" alt="Campaña 1">
+      </div>
+      <div class="campaign-slide">
+        <img src="camp2.jpg" alt="Campaña 2">
+      </div>
+      <div class="campaign-slide">
+        <img src="camp3.jpg" alt="Campaña 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+                <div class="program-list">
+                    <h4>Programas de Marca Propia</h4>
+                    <ul>
+                        <li>PROGRAMA DE ESTILOS DE VIDA SALUDABLE</li>
+                        <li>CIRCUITO DE LA ERGONOMÍA “ADAPTEMONOS"</li>
+                        <li>SEGUROS PRODUCIMOS MAS</li>
+                        <li>ARMA TU CIRCUITO</li>
+                        <li>SIMULADOR DE CONDUCCIÓN</li>
+                        <li>MOVILIZATE CON CONCIENCIA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-category">
+                <h3>Emergencias (Cursos Detallados)</h3>
+                <p>Ofrecemos diversos cursos de respuesta a emergencias con diferentes intensidades horarias y certificaciones.</p>
+                <div class="emergencies-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Intensidad Horaria</th>
+                                <th>Temática</th>
+                                <th>Certificaciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8 horas</td>
+                                <td>Primeros socorros básicos (Cadena de atención a víctimas, Control de hemorragias, RCP y obstrucción de la vía aérea, Movilización de víctimas), Sistema comando de incidentes (Roles e instalaciones), Primeros socorros estándar (Clasificación de lesionados en masa, Manejo del DEA, Lesiones traumáticas, Emergencias médicas), Evacuación de instalaciones (Fases del proceso, Tiempo teórico, Plan de evacuación), Manejo de extintores y equipos para el control de incendios incipientes (Dinámica del fuego, Tipo y uso de extintores), Nivel advertencia para incidentes con materiales peligrosos (Acción de respuesta).</td>
+                                <td>Primeros Socorros Básicos – ACES Internacional, Stop the Bleed, Primeros Socorros Estándares – ACES Internacional, Brigadista de Respuesta ante Emergencias en el Contexto Empresarial nivel básico.</td>
+                            </tr>
+                            <tr>
+                                <td>6 horas</td>
+                                <td>Primeros socorros básicos (Cadena de atención a víctimas, Control de hemorragias, RCP y obstrucción de la vía aérea, Movilización de víctimas), Primeros socorros estándar (Manejo del DEA, Lesiones traumáticas, Emergencias médicas), Evacuación de instalaciones (Fases del proceso, Tiempo teórico, Plan de evacuación), Manejo de extintores y equipos para el control de incendios incipientes (Dinámica del fuego, Tipo y uso de extintores).</td>
+                                <td>Primeros Socorros Básicos – ACES Internacional, Primeros Socorros Estándares – ACES Internacional, Brigadista de Respuesta ante Emergencias en el Contexto Empresarial nivel básico.</td>
+                            </tr>
+                            <tr>
+                                <td>4 horas</td>
+                                <td>Primeros socorros básicos (Cadena de atención a víctimas, Control de hemorragias, RCP y obstrucción de la vía aérea), Primeros socorros estándar (Lesiones traumáticas, Emergencias médicas), Evacuación de instalaciones (Fases del proceso, Tiempo teórico).</td>
+                                <td>Primeros Socorros Básicos – ACES Internacional, Primeros Socorros Estándares – ACES Internacional, Brigadista de Respuesta ante Emergencias en el Contexto Empresarial nivel incipiente.</td>
+                            </tr>
+                            <tr>
+                                <td>2 horas</td>
+                                <td>Manejo de extintores y equipos para el control de incendios incipientes (Dinámica del fuego, Tipo y uso de extintores), Primeros socorros básicos (Cadena de atención a víctimas, Control de hemorragias, RCP y obstrucción de la vía aérea), Evacuación de instalaciones (Fases del proceso, Tiempo teórico), Manejo de extintores y equipos para el control de incendios incipientes (Dinámica del fuego, Tipo y uso de extintores).</td>
+                                <td>Primeros Socorros Básicos – ACES Internacional, Brigadista de Respuesta ante Emergencias en el Contexto Empresarial nivel incipiente.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="methodology-section section-padding">
+        <div class="container">
+            <h2>Nuestra Metodología</h2>
+            <p>En ATSSAS realizamos las actividades de asesoría, consultoría, capacitación y entrenamiento tanto de forma presencial como virtuales.</p>
+            <div class="methodology-details">
+                <div class="detail-item">
+                    <h3>Plataformas Virtuales</h3>
+                    <p>Contamos con plataforma de Educación Virtual para los trabajadores de las empresas Q10, videoconferencias ZOOM, TEAMS, MEET y todas las funcionalidades de Google (Formularios, Classroom, Meet, Drive, etc.) para el desarrollo de actividades virtuales.</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Enfoque Práctico</h3>
+                    <p>Nuestra metodología se enfoca en el desarrollo de actividades prácticas, talleres y uso de ejemplos extraídos de la experiencia en campo, todo esto a través de un facilitador de aprendizajes y experiencias.</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Material de Apoyo</h3>
+                    <p>Contamos con material de capacitación que incluye material audiovisual, guías, evaluaciones y videos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="clients-section section-padding bg-light">
+        <div class="container">
+            <div class="value-added">
+                <h3>Valor Agregado y Programa de Fidelización</h3>
+                <p>Todos nuestros clientes y aliados estratégicos hacen parte de nuestro programa de fidelización, donde pueden acceder a:</p>
+                <ul>
+                    <li>Apoyo durante la respuesta a emergencias.</li>
+                    <li>Horas de asesoría o capacitación adicionales, previa concertación.</li>
+                    <li>Descuento en rutinas deportivas.</li>
+                    <li>Creación, desarrollo e implementación de programas personalizados.</li>
+                    <li>Descuento en el montaje de eventos especiales (decoración y comidas saludables).</li>
+                    <li>Certificaciones nacional e internacional.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="section-description">Estamos listos para brindarte soluciones oportunas y a la medida.</p>
+
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form action="#" method="POST"> 
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (Opcional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tu Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Nuestra Información</h3>
+                    <p><i class="ri-map-pin-line"></i> <strong>Oficina Principal:</strong> Bucaramanga (Santander), Calle 55a No. 27 – 22 Barrio Bolarqui</p>
+                    <p><i class="ri-phone-line"></i> <strong>Celulares:</strong> 317 6384710 / 318 8271277 / 316 5103066</p>
+                    <p><i class="ri-mail-line"></i> <strong>Correos:</strong> <a href="mailto:atsseguridadindustrial@gmail.com">atsseguridadindustrial@gmail.com</a>, <a href="mailto:atssasgestion@gmail.com">atssasgestion@gmail.com</a></p>
+                    <p><i class="ri-time-line"></i> <strong>Horario:</strong> Lunes a viernes de 8:00 a.m. a 12:30 p.m. y de 2 p.m. a 6:00 p.m., Sábados de 8:am a 1:00 pm</p>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0000000000005!2d-73.123456!3d7.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDcnMjQuMCJOIDczwrAwNyc0OC4wIlc!5e0!3m2!1ses!2sco!4v1678901234567" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ATSSAS S.A.S.</h3>
+                    <p>Expertos en Seguridad y Salud en el Trabajo.</p>
+                    <p>Nit. 900.605.534 - 3</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Quiénes Somos</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contáctanos</h4>
+                    <p>Bucaramanga, Santander</p>
+                    <p>Cel: 317 6384710</p>
+                    <p>Email: atsseguridadindustrial@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                
+                    <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ATSSAS S.A.S. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
